@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".Main2Activity">
+    <TextView
+        android:id="@+id/textID"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:layout_margin="50dp"
+        android:textAlignment="center"
+        android:background="#e6dede"
+        android:layout_height="4dp" />
+    <ImageView
+        android:id="@+id/imageID"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_margin="28dp"
+        android:background="#e9e4e4"
+        android:layout_height="4dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="#dad0d0"
+        android:layout_height="10dp"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnI"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="I"
+            android:textSize="40sp"
+            />
+        <Button
+            android:id="@+id/btnL"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="L"
+            android:textSize="40sp"
+            />
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="A"
+            android:textSize="40sp"
+            />
+        <Button
+            android:id="@+id/btnN"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="N"
+            android:textSize="40sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="5dp"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/submitID"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:text="Submit"
+            android:textSize="30dp"
+            android:layout_marginLeft="35dp"
+            />
+        <Button
+            android:id="@+id/hintID"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:text="Hint"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
